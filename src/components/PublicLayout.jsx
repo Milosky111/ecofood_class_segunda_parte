@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 export default function PublicLayout() {
   return (
     <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
-      <main className="bg-white p-5 rounded shadow" style={{ minWidth: '320px', maxWidth: '400px', width: '100%' }}>
+      <main className="" style={{ minWidth: '320px', maxWidth: '400px', width: '100%' }}>
         <Outlet />
       </main>
     </div>

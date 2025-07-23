@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import Index from './pages/Index';
 import Home from './pages/Home';
 import Perfil from './pages/Perfil';
 import Login from './pages/Login';
@@ -14,11 +15,12 @@ export default function AppRoutes() {
       <Route element={<PublicLayout />}>
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
+        <Route path="/" element={<Index />} />.
       </Route>
 
       {/* Layout para páginas protegidas */}
       <Route element={<AuthLayout />}>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/perfil" element={<Perfil />} />
       </Route>
 

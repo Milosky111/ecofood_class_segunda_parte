@@ -3,7 +3,7 @@ para visitar las paginas:
 /home
 /perfil
 
-debes inisiar secion, cuyo boton se encuentra con vinculo directo
+debes inisiar sesion, cuyo boton se encuentra con vinculo directo
 
 # React + Vite
 
